@@ -79,6 +79,20 @@ hr {
 --- General sections
 ============================ */
 
+.home-org-name,
+.home-mission {
+	background-color: #eb5d1e;
+	border-radius: .15em;
+}
+
+.home-org-name {
+	padding: 0 10px 0 10px;
+}
+
+.home-mission {
+	padding: 5px 10px;
+}
+
 .home-section {
     padding-top: 110px;
     padding-bottom: 110px;
