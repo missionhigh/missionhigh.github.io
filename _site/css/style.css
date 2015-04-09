@@ -2248,7 +2248,8 @@ ul.post-desc li + li{
 /*purchase section*/
 .purchase-sec{
     padding: 30px 0;
-    background: #f45b17;
+    /*background: #f45b17;*/
+    background: #ffb400;
 }
 .purchase-sec span{
     line-height: 40px;
@@ -2355,11 +2356,17 @@ ul.post-desc li + li{
     text-transform: uppercase;
 }
 
+.mhs-gold {
+/*    color: #ffb400;*/
+    color: #f45b17;
+}
+
 /****************************breadcrumb***************************/
 .breadcrumb-wrap{
     padding: 65px 0;
-background:url(../img/missionhigh-hires.jpg) repeat top center fixed;
-background-size: cover;
+/*background:url(../img/missionhigh-hires.jpg) repeat top center fixed;*/
+    background: url(../img/MHF_twitbanner.jpg) repeat top center fixed;
+    background-size: cover;
 }
 .breadcrumb-wrap h4{
     margin: 0px;
