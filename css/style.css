@@ -57,6 +57,41 @@
     padding: .2em;
 }
 
+.heading-brand img{
+    width:auto;
+    height: 60px;
+    margin-top: -20px;
+}
+
+.price-price.gold{
+    background: #ffb400;  
+    color:#fff;
+}
+.price-price.gold span{
+    color:#fff;
+}
+
+.progress.funding {
+    height: 50px;
+    line-height: 40px;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+    background: #E9E9E9;
+    border-radius: 0;
+}
+
+.progress-bar.funding{
+    line-height: 40px;
+/*    background:#f45b17;*/
+    box-shadow: none;
+    -webkit-box-shadow: none;
+}
+
+.funds-2date {
+    padding-right: 45%;
+    font-size: 2em;
+}
+
 /*-----------------------------------------------------------------------------------*/
 /*default orange #f45b17*/
 /*-----------------------------------------------------------------------------------*/
@@ -1245,7 +1280,7 @@ h1.typed-text{
 .special-feature i{
     font-size:65px;
     line-height:75px;
-    color:#f45b17;
+    /*color:#f45b17;*/
 }
 
 .special-feature h4{
