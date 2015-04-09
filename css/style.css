@@ -16,6 +16,27 @@
 .home-dinner-text {
     text-shadow: 2px 2px 5px rgba(255,255,255,0.5);
 }
+
+.mhs-back-orange {
+    background: #f45b17;
+}
+
+.mhs-orange {
+    color: #f45b17;
+}
+
+.mhs-gold {
+    color: #ffb400;
+}
+
+.mhs-back-gold {
+    background: #ffb400;
+}
+
+.mhs-brown {
+    background: #5c4612;
+}
+
 /*-----------------------------------------------------------------------------------*/
 /*default orange #f45b17*/
 /*-----------------------------------------------------------------------------------*/
@@ -1447,7 +1468,7 @@ h3.heading-progress {
 }
 .progress-bar {
     line-height: 10px;
-    background:#f45b17;
+/*    background:#f45b17;*/
     box-shadow: none;
     -webkit-box-shadow: none;
 }
@@ -2249,7 +2270,7 @@ ul.post-desc li + li{
 .purchase-sec{
     padding: 30px 0;
     /*background: #f45b17;*/
-    background: #ffb400;
+/*    background: #ffb400;*/
 }
 .purchase-sec span{
     line-height: 40px;
@@ -2354,11 +2375,6 @@ ul.post-desc li + li{
     color:#fff;
     font-weight: 700;
     text-transform: uppercase;
-}
-
-.mhs-gold {
-/*    color: #ffb400;*/
-    color: #f45b17;
 }
 
 /****************************breadcrumb***************************/
