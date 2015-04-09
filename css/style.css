@@ -37,6 +37,26 @@
     background: #5c4612;
 }
 
+.mhf-wrap {
+    background: url(../img/MHF_twitbanner.jpg);
+}
+
+.mhs-wrap {
+    background: url(../img/missionhighentrance.jpg); 
+}
+
+.black-span {
+    background: rgba(0,0,0,.7);
+}
+
+.count-span {
+    padding: .1em .1em;
+}
+
+.h4-span {
+    padding: .2em;
+}
+
 /*-----------------------------------------------------------------------------------*/
 /*default orange #f45b17*/
 /*-----------------------------------------------------------------------------------*/
@@ -2283,11 +2303,11 @@ ul.post-desc li + li{
 
 /****fun facts*****/
 .fun-fact-wrap{
-    background: url(../img/MHF_twitbanner.jpg);
     background-repeat: repeat !important;
     padding-top:100px;
     padding-bottom: 70px;
 }
+
 .facts-in{
     text-align: center;
 }
