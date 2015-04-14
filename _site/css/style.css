@@ -92,6 +92,16 @@
     font-size: 2em;
 }
 
+.slider-title {
+    background-color: rgba(0,0,0,.5);
+    padding: 0 .25em;
+}
+
+.slider-tag {
+    background-color: rgba(0,0,0,.5);
+    padding: 0 .25em;
+}
+
 
 /*-----------------------------------------------------------------------------------*/
 /*default orange #f45b17*/
