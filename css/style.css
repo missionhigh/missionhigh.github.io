@@ -92,6 +92,24 @@
     font-size: 2em;
 }
 
+@media(max-width:780px){
+    .funds-2date {
+        padding-right: 40%;
+    }   
+}
+
+@media(max-width:470px){
+    .funds-2date {
+        padding-right: 35%;
+    }   
+}
+
+@media(max-width:400px){
+    .funds-2date {
+        padding-right: 30%;
+    }   
+}
+
 .slider-title {
     background-color: rgba(0,0,0,.5);
     padding: 0 .25em;
