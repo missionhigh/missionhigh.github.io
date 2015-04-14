@@ -92,6 +92,7 @@
     font-size: 2em;
 }
 
+
 /*-----------------------------------------------------------------------------------*/
 /*default orange #f45b17*/
 /*-----------------------------------------------------------------------------------*/
@@ -951,7 +952,6 @@ input[type="color"]:focus,
 /*flex slider*/
 .slider-reg{
     width:100%;
-
 }
 
 @media(max-width:767px){
@@ -962,6 +962,7 @@ input[type="color"]:focus,
 }
 .main-flex-slider{
     position: relative;
+/*    height: 1000px;*/
 }
 .main-flex-slider .flex-control-nav {
     bottom: 10px;
