@@ -15,6 +15,8 @@
 
 .home-dinner-text {
     text-shadow: 2px 2px 5px rgba(255,255,255,0.5);
+    background-color: rgba(255,255,255,0.5);
+    text-align: center;
 }
 
 .mhs-back-orange {
@@ -38,7 +40,7 @@
 }
 
 .mhf-wrap {
-    background: url(../img/MHF_twitbanner.jpg);
+    background: url(../img/MHF_twitbanner-brown.jpg);
 }
 
 .mhs-wrap {
@@ -774,6 +776,7 @@ right: 13px;
     border: 1px solid #000;
     color:#000;
     background-color: transparent;
+    background-color: rgba(255,255,255,0.5);
 }
 .border-black:hover{
     background-color: #000;
@@ -2465,7 +2468,7 @@ ul.post-desc li + li{
 .breadcrumb-wrap{
     padding: 65px 0;
 /*background:url(../img/missionhigh-hires.jpg) repeat top center fixed;*/
-    background: url(../img/MHF_twitbanner.jpg) repeat top center fixed;
+    background: url(../img/MHF_twitbanner-brown.jpg) repeat top center fixed;
     background-size: cover;
 }
 .breadcrumb-wrap h4{
