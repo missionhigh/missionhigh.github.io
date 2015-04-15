@@ -15,7 +15,7 @@
 
 .home-dinner-text {
     text-shadow: 2px 2px 5px rgba(255,255,255,0.5);
-    background-color: rgba(255,255,255,0.5);
+    /*background-color: rgba(255,255,255,0.5);*/
     text-align: center;
 }
 
@@ -113,13 +113,11 @@
 }
 
 .slider-title {
-    background-color: rgba(0,0,0,.5);
-    padding: 0 .25em;
+    text-shadow: 2px 2px 3px rgba(0,0,0,.5);
 }
 
 .slider-tag {
-    background-color: rgba(0,0,0,.5);
-    padding: 0 .25em;
+    text-shadow: 2px 2px 3px rgba(0,0,0,.5);
 }
 
 .menu-sub {
