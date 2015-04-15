@@ -4,6 +4,26 @@
  * 
  */
 
+// $(document).ready(function () {
+//     Parse.initialize("Sd2euJhOL8JttJxylaBPt5NUfRJlnLD4ICI3G5xR", "hYK6lSmMFYb8Wpnv4jSqPtVLQDAgHG0A6JsXKjQy");
+
+//     var email = $('#newsletter-email').val();
+//     console.log(email);
+//     var NewsLetter = Parse.Object.extend("NewsLetter");
+//     var newsLetter = new NewsLetter();
+
+//     newsLetter.save(null, {
+//       success: function(letter) {
+//         console.log('newsletter save successful');
+//         // $('#lab-hardware-form').hide();
+//         // $('.hack-hardware-head-box').hide();
+//         // $('.hack-hardware-success-box').show();
+//       },
+//       error: function(letter, error) {
+//         console.log('Failed to create new object, with error code: ' + error.description);
+//       }
+//     });
+// });
 
 //sticky header on scroll
 $(document).ready(function () {
