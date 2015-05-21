@@ -141,6 +141,23 @@
     margin-top: 2em;
 }
 
+.donate-fa-top {
+    margin-top: 1em;
+}
+
+.top-bar .nav-donate {
+    z-index: 10;
+    color: black;
+    padding-top: .75em;
+/*    background-color: red;*/
+}
+
+.nav-donate-div {
+    margin-left: 9em;
+    border: 1px solid black;
+}
+
+
 
 /*-----------------------------------------------------------------------------------*/
 /*default orange #f45b17*/
