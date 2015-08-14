@@ -19,6 +19,19 @@
     text-align: center;
 }
 
+.spark-head {
+    padding-top: 20px;
+}
+
+.spark-levels {
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.level {
+    padding-left: 10px;
+}
+
 .mhs-back-orange {
     background: #f45b17;
 }
