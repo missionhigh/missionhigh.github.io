@@ -19,6 +19,71 @@
     text-align: center;
 }
 
+.info-head {
+    font-weight: bold;
+/*    font-size: 16px;*/
+    padding-bottom: -10px;
+}
+
+.apply-spark-input-div {
+    font-size: 20px;
+}
+
+.apply-spark-form-div {
+    font-size: 20px;
+}
+
+#apply-spark .apply-spark-input {
+    font-size: 20px;
+}
+
+#apply-spark .spark-application-input {
+    font-size: 20px;
+}
+
+.submit-controls-div {
+    margin-top: 70px;
+}
+
+.apply-spark-div {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.spark-success-msg,
+.spark-error-msg {
+    text-align: center;
+}
+
+.level-info-head {
+    color: #858d91;
+}
+
+.grant-label {
+    color: #858d91;
+    font-size: 20px !important;
+}
+
+.grant-level-div {
+    margin-bottom: 25px;
+}
+
+/*.bottom-apply {
+    margin-top: 70px;
+}*/
+
+/*.spark-application-input {
+    font-size: 20px;
+}
+
+.sustainability-div {
+    font-size: 20px important!;
+}*/
+
+/*.info-head-div {
+    margin-bottom: -10px;
+}*/
+
 .spark-head {
     padding-top: 20px;
 }
@@ -176,6 +241,10 @@
 
 .success-msg {
     color: green;
+}
+
+.error-msg {
+    color: red;
 }
 
 .top-social-icons {
