@@ -40,7 +40,29 @@ window.jQuery(function ($) {
 			var budget	 				= $('#budget-input').val();
 			var amount 					= $('.grant-input:checked').val();
 
-			if (fullName && email && role && projectTitle && needStatement && overview && popServed && outcomes && sustainability && budget && amount) {
+			var budgetItem	 				= $('#budget-item-input').val();
+			var budgetUnit	 				= $('#budget-unit-input').val();
+			var budgetCost	 				= $('#budget-cost-input').val();
+			var budgetTotal	 				= $('#budget-cost-total-input').val();
+			var budgetResources	 		= $('#bud-resources-input').val();
+	
+
+			if (fullName && 
+					email && 
+					role && 
+					projectTitle && 
+					needStatement && 
+					overview && 
+					popServed && 
+					outcomes && 
+					sustainability && 
+					budget && 
+					amount && 
+					budgetItem &&
+					budgetUnit &&
+					budgetCost &&
+					budgetTotal &&
+					budgetResources) {
 				console.log('application is good. no whammys');
 				$('.spark-success-msg').show();
 				$('.spark-error-msg').remove();
@@ -57,6 +79,12 @@ window.jQuery(function ($) {
 				fall15Spark.set("sustainability", sustainability);
 				fall15Spark.set("budget", budget);
 				fall15Spark.set("amount", amount);
+
+				fall15Spark.set("bItem", budgetItem);
+				fall15Spark.set("bUnit", budgetUnit);
+				fall15Spark.set("bCost", budgetCost);
+				fall15Spark.set("bTotal", budgetTotal);
+				fall15Spark.set("bResources", budgetResources);
 
 				fall15Spark.save(null, {
 				  success: function(fall15Spark) {
