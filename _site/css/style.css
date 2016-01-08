@@ -1,4 +1,4 @@
-/* 
+/*
     Document   : assan
     Author     : Design_mylife
     Description:assan multi-page for Multipurpose use
@@ -53,6 +53,12 @@
 .spark-success-msg,
 .spark-error-msg {
     text-align: center;
+}
+
+.spark-sum-head {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 18px;
+  border-bottom: 1px solid;
 }
 
 .level-info-head {
@@ -126,7 +132,7 @@
 }
 
 .mhs-wrap {
-    background: url(../img/missionhighentrance.jpg); 
+    background: url(../img/missionhighentrance.jpg);
 }
 
 .black-span {
@@ -148,7 +154,7 @@
 }
 
 .price-price.gold{
-    background: #ffb400;  
+    background: #ffb400;
     color:#fff;
 }
 .price-price.gold span{
@@ -179,19 +185,19 @@
 @media(max-width:780px){
     .funds-2date {
         padding-right: 40%;
-    }   
+    }
 }
 
 @media(max-width:470px){
     .funds-2date {
         padding-right: 35%;
-    }   
+    }
 }
 
 @media(max-width:400px){
     .funds-2date {
         padding-right: 30%;
-    }   
+    }
 }
 
 .slider-title {
@@ -261,7 +267,7 @@
 /*default orange #f45b17*/
 /*-----------------------------------------------------------------------------------*/
 
-body { 
+body {
     -webkit-font-smoothing: antialiased;
     -webkit-text-size-adjust: 100%;
     -ms-text-size-adjust: 100%;
@@ -568,7 +574,7 @@ p.sub-text{
 @media(max-width:568px){
  .no-padding-inner{
     padding: 15px;
-}   
+}
 }
 .margin-0{
     margin: 0px !important;
@@ -595,7 +601,7 @@ p.sub-text{
     .no-padding.img{
         position: relative;
         height: 300px;
-    } 
+    }
 }
 /***********bootstrap navigation default overrides--*/
 .navbar-default {
@@ -774,7 +780,7 @@ p.sub-text{
     background-color: #fff;
 }
 .dropdown-menu .divider{
-    background-color:#222; 
+    background-color:#222;
 }
 .yamm-content h3.heading{
     border-bottom: none;
@@ -945,11 +951,11 @@ right: 13px;
 
 }
 .item-img-wrap img{
-    -webkit-transition:all 200ms linear; 
-    -moz-transition:all 200ms linear; 
-    -o-transition:all 200ms linear; 
-    -ms-transition:all 200ms linear; 
-    transition:all 200ms linear; 
+    -webkit-transition:all 200ms linear;
+    -moz-transition:all 200ms linear;
+    -o-transition:all 200ms linear;
+    -ms-transition:all 200ms linear;
+    transition:all 200ms linear;
 }
 .item-img-overlay{
     position: absolute;
@@ -976,10 +982,10 @@ right: 13px;
     opacity: 1;
 }
 .item-img-wrap:hover img{
-    -moz-transform: scale(1.1); 
-    -webkit-transform: scale(1.1); 
-    -o-transform: scale(1.1); 
-    transform: scale(1.1); 
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transform: scale(1.1);
 }
 
 
@@ -1055,7 +1061,7 @@ input[type="color"]:focus,
 
 /*carousel slider*/
 #myCarousel{
-    background: url(../img/showcase-2.jpg) no-repeat; 
+    background: url(../img/showcase-2.jpg) no-repeat;
 }
 .item-c-slide{
     height: 480px;
@@ -1106,13 +1112,13 @@ input[type="color"]:focus,
     .slide-text h1{
         font-size: 50px;
         line-height: 50px;
-    }  
+    }
 }
 @media(max-width:320px){
     .slide-text h1{
         font-size: 30px;
         line-height: 35px;
-    }  
+    }
 }
 /*flex slider*/
 .slider-reg{
@@ -1123,7 +1129,7 @@ input[type="color"]:focus,
     .slider-reg.transparent-header-slider{
         margin-top: 50px;
 
-    } 
+    }
 }
 .main-flex-slider{
     position: relative;
@@ -1190,43 +1196,43 @@ input[type="color"]:focus,
 @media(min-width:769px){
     .slider-text{
         margin-top: 250px;
-    }    
+    }
 }
 /*@media(max-width:1024px){
     .slider-text{
         margin-top: 150px;
-    }    
+    }
 }*/
 @media(max-width:768px){
     .slider-text{
         margin-top: 120px;
-    }  
+    }
     .slider-text h1 {
         font-size: 2em;
-    } 
+    }
 }
 @media(max-width:667px){
     .slider-text{
         margin-top: 30px;
-    }  
+    }
     .slider-text h1 {
         font-size: 2em;
-    } 
+    }
 }
 @media(max-width:533px){
 /*    .slider-text p a{
         display: none;
-    } */ 
+    } */
 }
 @media(max-width:400px){
 /*    .slider-text p{
         display: none;
-    }*/  
+    }*/
 }
 @media(max-width:360px){
     .slider-text h1{
         font-size: 1.5em;
-    }  
+    }
 }
 /***********animation delays*****************/
 .delay-1{
@@ -1317,7 +1323,7 @@ h1.typed-text{
 @media(max-width:568px){
     h1.typed-text{
         font-size: 25px;
-    }  
+    }
 }
 /*services*/
 .services-wrap{
@@ -1612,7 +1618,7 @@ h1.typed-text{
 }
 /**************work and portfolio whole*******/
 /* mouse grab icon */
-.grabbing { 
+.grabbing {
     cursor:url(../img/grabbing.png) 8 8, move !important;
 }
 
@@ -1917,7 +1923,7 @@ ul.post-desc li + li{
 	top: 19px;
 	right: -12px;
 	z-index: 9;
-	
+
 }
 
 .timeline > li > .timeline-badge i:hover {
@@ -1950,7 +1956,7 @@ ul.post-desc li + li{
 
 .timeline .timeline-body {
     padding: 25px 15px;
- 
+
 }
 .timeline .timeline-body h2{
     font-size: 20px;
@@ -1963,7 +1969,7 @@ ul.post-desc li + li{
 
 
 .timeline > li.timeline-inverted{
-	float: right; 
+	float: right;
 	clear: right;
 	margin-bottom: 40px;
 }
@@ -2060,9 +2066,9 @@ ul.post-desc li + li{
         left: -11px;
         right: auto;
     }
-    
+
 	.timeline > li.timeline-inverted{
-		float: left; 
+		float: left;
 		clear: left;
 		margin-top: 30px;
 		margin-bottom: 30px;
@@ -2306,7 +2312,7 @@ ul.post-desc li + li{
     padding: 20px;
     background-color: #0c0c0c;
     border-top-left-radius: 6px;
-    border-top-right-radius:6px; 
+    border-top-right-radius:6px;
 }
 .news-form .form-control{
     border-radius: 3px;
@@ -2464,7 +2470,7 @@ ul.post-desc li + li{
     font-size:44px;
     padding-top:25px;
     line-height:20px;
-    font-weight:400; 
+    font-weight:400;
     color:#fff;
     /*rgba(244, 91, 23, 1);*/
 
@@ -2710,7 +2716,7 @@ ol.breadcrumb li a{
     text-align: center;
 }
 .price-price.popular{
-    background: #f45b17;  
+    background: #f45b17;
     color:#fff;
 }
 .price-price.popular span{
@@ -2721,10 +2727,10 @@ ol.breadcrumb li a{
 /***************about me*********************/
 .me-intro{
     background: url(../img/showcase-6.jpg);
-    padding: 160px 0; 
+    padding: 160px 0;
 }
 .me-intro h2{
-    color:#000;  
+    color:#000;
     font-weight: 700;
     margin-bottom: 15px;
     text-transform: uppercase;
@@ -2761,7 +2767,7 @@ p.dropcap:first-letter{
     float: left;
     font-size: 50px;
     line-height: 51px;
-    margin: -1px 8px -2px 0; 
+    margin: -1px 8px -2px 0;
     color:#f45b17;
 }
 /*contact us*/
@@ -3367,7 +3373,7 @@ Version v1.1 css*
     border-bottom-color: #111;
 }
 #header-top.dark-header-top .top-bar a i{
-    color:#fff;   
+    color:#fff;
 }
 #header-top.dark-header-top .top-bar ul li{
     color:#fff;
@@ -3385,7 +3391,7 @@ Version v1.1 css*
 @media(max-width:767px){
     .navbar-inverse.transparent-header{
         background-color: #111 !important;
-    }  
+    }
 }
 
 
@@ -3696,7 +3702,7 @@ body.invoice{
 @media(min-width:768px){
     .invoice-header-right{
         text-align: right;
-    }   
+    }
     .invoice-header-right h5{
         margin-bottom: 0px;
     }
@@ -3751,7 +3757,7 @@ body.invoice{
 @media(max-width:568px){
     .nav-tabs>li>a{
         padding: 6px 25px;
-    }  
+    }
 }
 .nav-tabs>li>a:hover{
     border-color: #f45b17;
@@ -3841,7 +3847,7 @@ body.invoice{
 @media(min-width:1200px){
     .boxed-wrapper{
         margin: 0  auto;
-        width:1170px;    
+        width:1170px;
         background-color: white;
         -webkit-box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.16);
         -moz-box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.16);
@@ -3850,7 +3856,7 @@ body.invoice{
 
 }
 .boxed-wrapper .tp-banner-container{
-    margin: 0px auto;  
+    margin: 0px auto;
 }
 .boxed-wrapper .navbar-default{
     left: auto;
@@ -3893,7 +3899,7 @@ MULTI LEVEL DROPDOWN CSS
 @media(max-width:767px){
     .dropdown-submenu>.dropdown-menu{
         padding-left: 20px;
-    }   
+    }
 }
 .dropdown-submenu:hover>.dropdown-menu {
     display: block;
@@ -4094,7 +4100,7 @@ span.sale-label{
     -webkit-border-radius: 3px;
 }
 .product-desc-sh h4{
-    text-transform: capitalize;     
+    text-transform: capitalize;
 }
 .product-col img{
     width:100%;
@@ -4121,14 +4127,14 @@ span.sale-label{
 @media(min-width:992px){
     .product-desc-sh{
         background-color: #f8f8f8;
-    }  
+    }
 }
 .product-desc-sh .btn-default{
     letter-spacing: 0px;
     font-weight: 600;
 }
 .product-desc-sh .btn-default:hover{
-    color:#000;  
+    color:#000;
 }
 .product-col img{
     display: block;
@@ -4352,7 +4358,7 @@ table.shopping-cart-table tr th, table.shopping-cart-table tr td {
     color: #666;
 }
 .sky-form-login-register .sky-form.v2{
-    font: 13px/1.55 'Roboto', Helvetica, Arial, sans-serif;   
+    font: 13px/1.55 'Roboto', Helvetica, Arial, sans-serif;
 }
 .sky-form-login-register .sky-form footer{
     background-color: #fff;
@@ -4476,7 +4482,7 @@ table.shopping-cart-table tr th, table.shopping-cart-table tr td {
     .intro-text-default h4 {
         font-size: 28px;
         line-height: 40px;
-    } 
+    }
 }
 .intro-text-default p{
     font-size: 16px;
@@ -4737,7 +4743,7 @@ table.shopping-cart-table tr th, table.shopping-cart-table tr td {
 }
 .events-bg h2{
     text-transform: uppercase;
-    color:#fff;  
+    color:#fff;
     margin-bottom: 20px;
     font-size: 40px;
     font-weight: 700;
@@ -4828,7 +4834,7 @@ table.shopping-cart-table tr th, table.shopping-cart-table tr td {
     text-align: center;
 }
 .register-text-box h3{
-    color:#fff;    
+    color:#fff;
 }
 
 
@@ -4847,7 +4853,7 @@ table.shopping-cart-table tr th, table.shopping-cart-table tr td {
 @media(max-width:568px){
     .col-one-fourth{
         width:100%;
-    } 
+    }
 }
 
 
@@ -4931,12 +4937,12 @@ table.shopping-cart-table tr th, table.shopping-cart-table tr td {
 @media(max-width:767px){
     .col-2-space .project-post, .col-2-no-space .project-post, .col-3-space .project-post, .col-3-no-space .project-post, .col-4-space .project-post, .col-4-no-space .project-post, .col-5-no-space .project-post{
         width:50%;
-    } 
+    }
 }
 @media(max-width:568px){
     .col-2-space .project-post, .col-2-no-space .project-post, .col-3-space .project-post, .col-3-no-space .project-post, .col-4-space .project-post, .col-4-no-space .project-post, .col-5-no-space .project-post{
         width:100%;
-    } 
+    }
 }
 /***new icon overlay***/
 .img-icon{
