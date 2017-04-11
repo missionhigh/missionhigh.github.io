@@ -23,6 +23,10 @@
     text-align: center;
 }
 
+.dinner-head h3 {
+  color: white;
+}
+
 .info-head {
     font-weight: bold;
 /*    font-size: 16px;*/
@@ -349,7 +353,7 @@ h1, h2, h3, h4, h5, h6 {
     color: #060606;
     font-weight: 700;
     margin: 0;
-   font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 h1 {
