@@ -6,7 +6,7 @@ Mission High Foundation
 ## Mac
 
 Open a Terminal and change to the directory where you've checked out
-`missionbit.github.io`, then run this command to start the [Jekyll]
+`missionhigh.github.io`, then run this command to start the [Jekyll]
 preview server:
 
 ```bash
