@@ -9,6 +9,10 @@
     font-weight: bold;
 }
 
+#slider-sec .img-responsive {
+  width: 100%;
+}
+
 .navbar-brand {
 /*    background-color: teal;*/
 }
